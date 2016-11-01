@@ -1,0 +1,25 @@
+The program, when compiled, gets placed in the bin/release folder. 
+To run all command line arguments with the program with your file, rename your file input.txt, 
+place it in the same folder as the program, then execute Run.sh. 
+The programs command line arguments are algorithm name , input file name, ready queue size,
+context switch length, and time quantum size. Use rr for round robin, 
+sjf for shortest job first, fcfs for first come first serve, sjfwea for shortest job first with
+exponential averaging, and srjf for shortest remaining job first. 
+For example, ./schedulingAlgorithm fcfs input.txt 20 2 runs first come first serve with input.txt,
+ready queue size 20, and context switch length 2.
+	
+Round Robin inherits from First Come First Serve, and the Shortest Job First derivatives inherit from shortest job first. 
+All the header and implementation
+files are in the root and have been given names based on what algorithm they implement.  
+The process class which is used to create process objects is in the root,
+located in Process.cpp and Process.h. 
+The DataLogger class, which stores algorithm results, is also in the root and named using the same convention. 
+The Makefile
+,which is used to compile the program, is also in the root folder. The program, Run.sh, the test file (called input.txt), 
+and the results of all the algorithms are in bin/release. 
+Larger 
+test files  are in the root, and are given the name largeInput. 
+	
+The results for the full file are stored in results in the root. Project Description.pdf is the project description which is in the root. 
+The program that generates 
+the simulation data is in /Random Number Generator/bin/Release. 

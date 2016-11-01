@@ -1,0 +1,540 @@
+First Come First Serve With Ready Queue Size 20
+Results:
+CPU Utilization: 99.462424
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 181014297.829000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 181014297829
+Total Waiting Time: 4591837681
+Total Turnaround Time: 187325591702
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187325591.702000
+Waiting Time Statistics: 
+Mean: 4591837.681000
+Median: 6916088.000000
+Standard Deviation: 1486675.269752
+
+First Come First Serve With Ready Queue Size 100
+Results:
+CPU Utilization: 99.462424
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 162803675.447000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 162803675447
+Total Waiting Time: 22802460063
+Total Turnaround Time: 187325591702
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187325591.702000
+Waiting Time Statistics: 
+Mean: 22802460.063000
+Median: 34599935.000000
+Standard Deviation: 7148664.849389
+
+First Come First Serve With Unlimited Ready Queue Size
+Results:
+CPU Utilization: 99.462424
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 185606135510
+Total Turnaround Time: 187325591702
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187325591.702000
+Waiting Time Statistics: 
+Mean: 185606135.510000
+Median: 297589573.500000
+Standard Deviation: 40767137.807637
+
+Shortest Job First With Ready Queue Size 20
+Results:
+CPU Utilization: 99.288929
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 178658611.306000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 178658611306
+Total Waiting Time: 4546342328
+Total Turnaround Time: 184924409826
+Throughput: 0.004333 processes per 1000 time units
+Average turnaround time: 184924409.826000
+Waiting Time Statistics: 
+Mean: 4546342.328000
+Median: 362829.500000
+Standard Deviation: 29927186.912092
+
+Shortest Job First With Ready Queue Size 100
+Results:
+CPU Utilization: 99.395811
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 152617198.200000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 152617198200
+Total Waiting Time: 22040534956
+Total Turnaround Time: 176377189348
+Throughput: 0.004338 processes per 1000 time units
+Average turnaround time: 176377189.348000
+Waiting Time Statistics: 
+Mean: 22040534.956000
+Median: 532353.000000
+Standard Deviation: 57438770.265245
+
+Shortest Job First With Unlimited Ready Queue Size
+Results:
+CPU Utilization: 99.229348
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 148939437482
+Total Turnaround Time: 150658893674
+Throughput: 0.004330 processes per 1000 time units
+Average turnaround time: 150658893.674000
+Waiting Time Statistics: 
+Mean: 148939437.482000
+Median: 232526406.500000
+Standard Deviation: 53707440.389331
+
+Round Robin With Ready Queue Size 20 and Time Quantum 10
+Results:
+CPU Utilization: 83.125787
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 216992744.977000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 216992744977
+Total Waiting Time: 5476811480
+Total Turnaround Time: 224189028152
+Throughput: 0.003627 processes per 1000 time units
+Average turnaround time: 224189028.152000
+Waiting Time Statistics: 
+Mean: 5476811.480000
+Median: 8309965.500000
+Standard Deviation: 1784330.523668
+
+Round Robin With Ready Queue Size 100 and Time Quantum 10
+Results:
+CPU Utilization: 83.125787
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 195182054.777000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 195182054777
+Total Waiting Time: 27287501680
+Total Turnaround Time: 224189028152
+Throughput: 0.003627 processes per 1000 time units
+Average turnaround time: 224189028.152000
+Waiting Time Statistics: 
+Mean: 27287501.680000
+Median: 41693040.000000
+Standard Deviation: 8602046.982420
+
+Round Robin With Unlimited Ready Queue Size and Time Quantum 10
+Results:
+CPU Utilization: 83.125787
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 222469556457
+Total Turnaround Time: 224189028152
+Throughput: 0.003627 processes per 1000 time units
+Average turnaround time: 224189028.152000
+Waiting Time Statistics: 
+Mean: 222469556.457000
+Median: 358252455.000000
+Standard Deviation: 49054347.630757
+
+Round Robin With Ready Queue Size 20 and Time Quantum 50
+Results:
+CPU Utilization: 95.860314
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 187865153.388000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 187865153388
+Total Waiting Time: 4762438500
+Total Turnaround Time: 194347051202
+Throughput: 0.004183 processes per 1000 time units
+Average turnaround time: 194347051.202000
+Waiting Time Statistics: 
+Mean: 4762438.500000
+Median: 7228630.000000
+Standard Deviation: 1550216.159919
+
+Round Robin With Ready Queue Size 100 and Time Quantum 50
+Results:
+CPU Utilization: 95.860314
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 168961924.441000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 168961924441
+Total Waiting Time: 23665667447
+Total Turnaround Time: 194347051202
+Throughput: 0.004183 processes per 1000 time units
+Average turnaround time: 194347051.202000
+Waiting Time Statistics: 
+Mean: 23665667.447000
+Median: 36153885.500000
+Standard Deviation: 7452701.243422
+
+Round Robin With Unlimited Ready Queue Size and Time Quantum 50
+Results:
+CPU Utilization: 95.860314
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 192627591888
+Total Turnaround Time: 194347051202
+Throughput: 0.004183 processes per 1000 time units
+Average turnaround time: 194347051.202000
+Waiting Time Statistics: 
+Mean: 192627591.888000
+Median: 310159031.500000
+Standard Deviation: 42454941.870365
+
+Round Robin With Ready Queue Size 20 and Time Quantum 100
+Results:
+CPU Utilization: 97.731749
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 184227211.482000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 184227211482
+Total Waiting Time: 4673007440
+Total Turnaround Time: 190619676633
+Throughput: 0.004265 processes per 1000 time units
+Average turnaround time: 190619676.633000
+Waiting Time Statistics: 
+Mean: 4673007.440000
+Median: 7077075.500000
+Standard Deviation: 1520187.629321
+
+Round Robin With Ready Queue Size 100 and Time Quantum 100
+Results:
+CPU Utilization: 97.731749
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 165687770.917000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 165687770917
+Total Waiting Time: 23212448005
+Total Turnaround Time: 190619676633
+Throughput: 0.004265 processes per 1000 time units
+Average turnaround time: 190619676.633000
+Waiting Time Statistics: 
+Mean: 23212448.005000
+Median: 35413138.500000
+Standard Deviation: 7306547.444969
+
+Round Robin With Unlimited Ready Queue Size and Time Quantum 100
+Results:
+CPU Utilization: 97.731749
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 188900218922
+Total Turnaround Time: 190619676633
+Throughput: 0.004265 processes per 1000 time units
+Average turnaround time: 190619676.633000
+Waiting Time Statistics: 
+Mean: 188900218.922000
+Median: 303854755.000000
+Standard Deviation: 41608571.585274
+
+Round Robin With Ready Queue Size 20 and Time Quantum 500
+Results:
+CPU Utilization: 99.268870
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 181362640.435000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 181362640435
+Total Waiting Time: 4601341388
+Total Turnaround Time: 187683438319
+Throughput: 0.004332 processes per 1000 time units
+Average turnaround time: 187683438.319000
+Waiting Time Statistics: 
+Mean: 4601341.388000
+Median: 6960853.500000
+Standard Deviation: 1493063.934321
+
+Round Robin With Ready Queue Size 100 and Time Quantum 500
+Results:
+CPU Utilization: 99.268870
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 163114527.956000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 163114527956
+Total Waiting Time: 22849453867
+Total Turnaround Time: 187683438319
+Throughput: 0.004332 processes per 1000 time units
+Average turnaround time: 187683438.319000
+Waiting Time Statistics: 
+Mean: 22849453.867000
+Median: 34819201.000000
+Standard Deviation: 7175619.113953
+
+Round Robin With Unlimited Ready Queue Size and Time Quantum 500
+Results:
+CPU Utilization: 99.268870
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 185963981823
+Total Turnaround Time: 187683438319
+Throughput: 0.004332 processes per 1000 time units
+Average turnaround time: 187683438.319000
+Waiting Time Statistics: 
+Mean: 185963981.823000
+Median: 298997914.500000
+Standard Deviation: 40916485.842409
+
+Round Robin With Ready Queue Size 20 and Time Quantum 1000
+Results:
+CPU Utilization: 99.463510
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 181010790.380000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 181010790380
+Total Waiting Time: 4591835720
+Total Turnaround Time: 187322082440
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187322082.440000
+Waiting Time Statistics: 
+Mean: 4591835.720000
+Median: 6907472.000000
+Standard Deviation: 1487748.336664
+
+Round Robin With Ready Queue Size 100 and Time Quantum 1000
+Results:
+CPU Utilization: 99.463510
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 162800029.595000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 162800029595
+Total Waiting Time: 22802596505
+Total Turnaround Time: 187322082440
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187322082.440000
+Waiting Time Statistics: 
+Mean: 22802596.505000
+Median: 34610712.500000
+Standard Deviation: 7150466.944517
+
+Round Robin With Unlimited Ready Queue Size and Time Quantum 1000
+Results:
+CPU Utilization: 99.463510
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 185602626100
+Total Turnaround Time: 187322082440
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187322082.440000
+Waiting Time Statistics: 
+Mean: 185602626.100000
+Median: 297514225.500000
+Standard Deviation: 40771077.741003
+
+Round Robin With Ready Queue Size 20 and Time Quantum 1000000
+Results:
+CPU Utilization: 99.462424
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 181014297.829000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 181014297829
+Total Waiting Time: 4591837681
+Total Turnaround Time: 187325591702
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187325591.702000
+Waiting Time Statistics: 
+Mean: 4591837.681000
+Median: 6916088.000000
+Standard Deviation: 1486675.269752
+
+Round Robin With Ready Queue Size 100 and Time Quantum 1000000
+Results:
+CPU Utilization: 99.462424
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 162803675.447000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 162803675447
+Total Waiting Time: 22802460063
+Total Turnaround Time: 187325591702
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187325591.702000
+Waiting Time Statistics: 
+Mean: 22802460.063000
+Median: 34599935.000000
+Standard Deviation: 7148664.849389
+
+Round Robin With Unlimited Ready Queue Size and Time Quantum 1000000
+Results:
+CPU Utilization: 99.462424
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 185606135510
+Total Turnaround Time: 187325591702
+Throughput: 0.004340 processes per 1000 time units
+Average turnaround time: 187325591.702000
+Waiting Time Statistics: 
+Mean: 185606135.510000
+Median: 297589573.500000
+Standard Deviation: 40767137.807637
+
+Shortest Job First With Exponential Averaging With Ready Queue Size 20
+Results:
+CPU Utilization: 99.280220
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 178862883.852000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 178862883852
+Total Waiting Time: 4554060414
+Total Turnaround Time: 185136400458
+Throughput: 0.004332 processes per 1000 time units
+Average turnaround time: 185136400.458000
+Waiting Time Statistics: 
+Mean: 4554060.414000
+Median: 394315.000000
+Standard Deviation: 23397830.033525
+
+Shortest Job First With Exponential Averaging With Ready Queue Size 100
+Results:
+CPU Utilization: 99.324723
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 155348438.126000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 155348438126
+Total Waiting Time: 22249914594
+Total Turnaround Time: 179317808912
+Throughput: 0.004334 processes per 1000 time units
+Average turnaround time: 179317808.912000
+Waiting Time Statistics: 
+Mean: 22249914.594000
+Median: 1662671.000000
+Standard Deviation: 45919367.637919
+
+Shortest Job First With Exponential Averaging With Unlimited Ready Queue Size
+Results:
+CPU Utilization: 99.290219
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 150794394145
+Total Turnaround Time: 152513850337
+Throughput: 0.004333 processes per 1000 time units
+Average turnaround time: 152513850.337000
+Waiting Time Statistics: 
+Mean: 150794394.145000
+Median: 236245413.000000
+Standard Deviation: 51804044.942873
+
+Shortest Remaining Job First With Ready Queue Size 20
+Results:
+CPU Utilization: 98.548384
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 178091958.315000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 178091958315
+Total Waiting Time: 4589498410
+Total Turnaround Time: 184400912917
+Throughput: 0.004301 processes per 1000 time units
+Average turnaround time: 184400912.917000
+Waiting Time Statistics: 
+Mean: 4589498.410000
+Median: 364887.500000
+Standard Deviation: 30324646.123880
+
+Shortest Remaining Job First With With Ready Queue Size 100
+Results:
+CPU Utilization: 98.677396
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 151876531.211000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 151876531211
+Total Waiting Time: 22210264353
+Total Turnaround Time: 175806251756
+Throughput: 0.004306 processes per 1000 time units
+Average turnaround time: 175806251.756000
+Waiting Time Statistics: 
+Mean: 22210264.353000
+Median: 548030.500000
+Standard Deviation: 58036373.132295
+
+Shortest Remaining Job First With Unlimited Ready Queue Size
+Results:
+CPU Utilization: 99.097367
+Average Time Spent Doing IO: 1490301.720000
+Average Time Spent Doing CPU: 229154.472000
+Average Time Waiting To Get Onto Ready Queue: 0.000000
+Total Time Spent Doing CPU: 229154472
+Total Time Spent Doing IO: 1490301720
+Total Time Waiting To Get Onto Ready Queue: 0
+Total Waiting Time: 149029944045
+Total Turnaround Time: 150749400237
+Throughput: 0.004324 processes per 1000 time units
+Average turnaround time: 150749400.237000
+Waiting Time Statistics: 
+Mean: 149029944.045000
+Median: 231902465.500000
+Standard Deviation: 53952923.390005
+
